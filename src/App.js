@@ -25,7 +25,7 @@ function App() {
   const span={
   fontFamily: 'sans-serif'
   }
-  const time=new Date(2021,11,26,24); //if arguments are removed then it will work according to current time 
+  const time=new Date(2021,11,26,24); //if arguments are removed then it will work according to current time
   const curtime=time.getHours();
   let greeting='';
   let greetstyle={};
@@ -48,7 +48,7 @@ function App() {
 
   return (
     <>
-    
+      <h1>This is my first code in </h1>
       <h1 style={heading}>GREETINGS  </h1>
       <div style={main}>
       <p style={text}>Hello Sir!<span style={span} style={greetstyle}> {greeting}</span> 😄 👍</p>
